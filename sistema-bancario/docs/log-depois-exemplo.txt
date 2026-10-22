@@ -1,0 +1,16 @@
+=== Simulação concorrente: 1 conta compartilhada por várias threads ===
+8 threads x 100000 repetições (cada repetição = 1 depósito de R$ 10.00 + 1 saque de R$ 5.00)
+
+Rodada  1 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 234 ms | ok
+Rodada  2 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 103 ms | ok
+Rodada  3 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 103 ms | ok
+Rodada  4 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 59 ms | ok
+Rodada  5 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 56 ms | ok
+Rodada  6 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 58 ms | ok
+Rodada  7 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 60 ms | ok
+Rodada  8 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 54 ms | ok
+Rodada  9 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 55 ms | ok
+Rodada 10 | esperado R$ 4001000.00 | obtido R$ 4001000.00 | diferença R$ 0.00 | 56 ms | ok
+
+Resumo: 0 de 10 rodadas com saldo CORROMPIDO.
+Todas as rodadas fecharam com o saldo exato.

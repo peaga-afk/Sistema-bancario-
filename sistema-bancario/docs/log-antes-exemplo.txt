@@ -1,0 +1,15 @@
+=== Simulação concorrente (SEM sincronização) ===
+8 threads x 100000 repetições (cada repetição = 1 depósito de R$ 10.00 + 1 saque de R$ 5.00)
+
+Rodada  1 | esperado R$ 4001000.00 | obtido R$ 1429785.00 | diferença R$ -2571215.00 | 116 ms | CORROMPIDO
+Rodada  2 | esperado R$ 4001000.00 | obtido R$ 2146590.00 | diferença R$ -1854410.00 | 40 ms | CORROMPIDO
+Rodada  3 | esperado R$ 4001000.00 | obtido R$ 3990995.00 | diferença R$ -10005.00 | 41 ms | CORROMPIDO
+Rodada  4 | esperado R$ 4001000.00 | obtido R$ 3403775.00 | diferença R$ -597225.00 | 42 ms | CORROMPIDO
+Rodada  5 | esperado R$ 4001000.00 | obtido R$ 2257540.00 | diferença R$ -1743460.00 | 31 ms | CORROMPIDO
+Rodada  6 | esperado R$ 4001000.00 | obtido R$ 2574145.00 | diferença R$ -1426855.00 | 26 ms | CORROMPIDO
+Rodada  7 | esperado R$ 4001000.00 | obtido R$ 3447920.00 | diferença R$ -553080.00 | 23 ms | CORROMPIDO
+Rodada  8 | esperado R$ 4001000.00 | obtido R$ 3012295.00 | diferença R$ -988705.00 | 23 ms | CORROMPIDO
+Rodada  9 | esperado R$ 4001000.00 | obtido R$ 2527595.00 | diferença R$ -1473405.00 | 23 ms | CORROMPIDO
+Rodada 10 | esperado R$ 4001000.00 | obtido R$ 1948365.00 | diferença R$ -2052635.00 | 26 ms | CORROMPIDO
+
+Resumo: 10 de 10 rodadas com saldo CORROMPIDO.
